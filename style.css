@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color:white;
+}
+
+.one{
+    height: 75vh;
+    width: 80%;
+    margin-left: 0;
+}
+
+.video{
+    height: 75vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    z-index: -1;
+    object-fit: cover;
+
+}
+
+.content {
+    position: absolute; /* or use relative */
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin-top: 13%;
+    font-size: 2em;
+    margin-left: 27%;
+}
+
+.h1{
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 9vh;
+    font-style: italic;
+    font-weight:bolder;
+}
+
+.h21{
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 6vh;
+    margin-top: 1%;
+    font-weight:bolder;
+}
+
+.h22{
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 6vh;
+    font-weight:bolder;
+}
+
+.p1{
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2.5vh;
+    font-weight:bolder;
+    margin-top: 1%;
+}
+
+.p2{
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2.5vh;
+    font-weight:bolder;
+}
+
+.p3{
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2vh;
+    margin-top: 6%;
+}
+
+.button1{
+    margin-top: 2%;
+    height: 200px;
+    font-size: 60px;
+    width: 500px;
+    padding-left: 1px;
+    background-color: black;
+    border-color:black;
+    padding-right: 1px;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 1%;
+}
+
+.button2{
+    margin-top: 2%;
+    height: 200px;
+    font-size: 60px;
+    width: 500px;
+    padding-left: 1px;
+    background-color: black;
+    border-color:black;
+    padding-right: 1px;
+    color: white;
+    padding-top: 1px;
+    margin-left: 1%;
+    padding-bottom: 1px;
+}
+
+.two{
+    display:flex;
+    height: 100vh;
+}
+
+.img2{
+
+    margin-top: 0%;
+    border-color: black;
+    height: 90vh;
+    width: 80%;
+    margin-left: 0;
+}
